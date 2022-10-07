@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lecture 14</title>
+	<style>
+		/*Element with class selector*/
+		h1.green {
+			color: green;
+		}
+		p.red {
+			color: red;
+			margin-left: 100px;
+		}
+		/*Child selector*/
+		section > div{
+			color: brown;
+			font-style: italic;
+			font-size: 20px;
+		}
+		/*Descendant selector*/
+		div p {
+			color: purple;
+			margin-left: 150px;
+		}
+	</style> 
+</head>
+<body>
+
+<section>
+	<h1 class="green">Lecture 14: Combining Selectors</h1>
+
+	<div>- A powerful technique</div>
+
+	<div>- Element with class selector
+		<p class="red">element.className {</p>
+		<p class="red">...</p>
+		<p class="red">}</p>
+	</div>
+
+	<div>- Child selector
+		<p class="red">element1 > element2 {</p>
+		<p class="red">...</p>
+		<p class="red">}</p>
+		<p class="red">element2 is a direct child of element1</p>
+	</div>
+
+	<div>- Descendant selector
+		<p>element1 element2 {</p>
+		<p>...</p>
+		<p>}</p>
+		<p>every element2 is inside of element1</p>
+	</div>
+
+	<div>- Not limited to element selectors</div>
+
+</section>
+</body>
+</html>

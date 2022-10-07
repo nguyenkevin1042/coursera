@@ -1,0 +1,7 @@
+.origin .in-conflict{
+	color: brown;
+}
+
+.origin .no-conflict{
+	color: darkblue;
+}

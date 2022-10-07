@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lecture 15</title>
+	<style>
+		/*:link*/
+		ol li a:link {
+			font-family: sans-serif;
+			font-size: 30px;
+			background: darkgray;
+			color: yellow;
+		}
+		/*:visited*/
+		ol li a:visited {
+			font-size: 30px;
+			background: green;
+		}
+		/*:hover*/
+		ol li .hover:hover {
+			background: red;
+			font-size: 40px;
+		}
+		/*:active*/
+		ol li .active:active {
+			background: black;
+			color: white;
+			font-size: 30px;
+		}
+		/*:nth-child(...)*/
+		ol .nth-child li:nth-child(5):hover {
+			background: black;
+			color: white;
+		}
+		ol .nth-child li:nth-child(even) {
+			background: orange;
+		}
+		ol .nth-child li:nth-child(odd) {
+			background: red;
+		}
+
+		ol .nth-child li {
+			list-style: none;
+		}
+
+	</style>
+</head>
+<body>
+<h1>Lecture 15: Pseudo-Class Selectors</h1>
+<section>
+	<h3>Pseudo-class selectors</h3>
+	<ol>
+		<li>:link
+			<p>Click <a href="/week1/lecture1/lecture1.html">here</a> to redirect to Lecture 1</p>
+		</li>
+
+		<li>:visited
+			<p>Click <a href="/week1/lecture2/lecture2.html">here</a> to redirect to Lecture 2</p>
+		</li>
+
+		<li>:hover
+			<button class="hover">Hover here</button>
+		</li>
+
+		<li>:active
+			<button class="active">Hover here</button>
+		</li>
+
+		<li class="nth-child">:nth-child(…)
+			<ul>
+				<li><p>This is paragraph 1</p></li>
+				<li><p>This is paragraph 2</p></li>
+				<li><p>This is paragraph 3</p></li>
+				<li><p>This is paragraph 4</p></li>
+				<li><p>This is paragraph 5</p></li>
+			</ul>
+		</li>
+	</ol>
+</section>
+
+</body>
+</html>

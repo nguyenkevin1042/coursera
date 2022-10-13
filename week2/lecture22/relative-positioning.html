@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Relative Positioning</title>
+	<style>
+		section div{
+			background: grey;
+			position: relative;
+		}
+
+		p {
+			width: 50px;
+			height: 50px;
+			border: 1px solid black;
+			margin-left: 50px;
+			margin-bottom: 20px;
+		}
+
+		#box1{
+			background: red;
+			position: relative;
+			top: 100px;
+			left: 100px;
+		}
+
+		#box2{
+			background: yellow;
+		}
+
+		#box3{
+			background: orange;
+		}
+
+		#box4{
+			background: purple;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+		}
+	</style>	
+</head>
+<body>
+<h1>Lecture 22: Relative and Absolute Element Positioning</h1>
+<section>
+	<h3>Relative Positioning</h3>
+	<div>
+		<p id="box1"></p>
+		<p id="box2"></p>
+		<p id="box3"></p>
+		<p id="box4"></p>
+	</div>
+</section>
+
+</body>
+</html>

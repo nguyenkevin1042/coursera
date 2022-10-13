@@ -1,0 +1,37 @@
+#screen1 {
+	width: 500px;
+	height: 50px;
+	background-color: yellow;
+}
+
+#screen2 {
+	width: 200px;
+	height: 50px;
+	background-color: green;
+}
+
+#screen3 {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+}
+
+@media (min-width: 768px){
+	#screen1 {
+		width: 80%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 908px){
+	#screen2 {
+		width: 100px;
+		height: 300px;
+	}
+}
+
+@media (min-width: 1268px){
+	#screen3 {
+		width: 100px;
+		height: 500px;
+	}
+}

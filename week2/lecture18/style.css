@@ -1,0 +1,25 @@
+body {
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: 500;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-uppercase{
+	text-transform: uppercase;
+}
+
+.text-lowercase{
+	text-transform: lowercase;
+}
+
+.default-size {
+font-size: 100%;
+}
+
+.bigger-size{
+font-size: 150%;
+}

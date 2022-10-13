@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lecture 21</title>
+	<link rel="Stylesheet" href="style.css">
+</head>
+<body>
+<h1>Lecture 21: Positioning Elements by Floating</h1>
+
+
+<div>
+	<p class="box1"></p>
+	<p class="box2"></p>
+	<p class="box3"></p>
+	<p class="box4"></p>
+	<section>This is an original</section>
+</div>
+
+<div>
+	<p class="box1 float-right"></p>
+	<p class="box2"></p>
+	<p class="box3"></p>
+	<p class="box4"></p>
+	<section>When using float: right at the first box</section>
+</div>
+
+<div>
+	<p class="box1 float-left"></p>
+	<p class="box2 float-left"></p>
+	<p class="box3 float-left"></p>
+	<p class="box4 float-left"></p>
+	<section>When using float: left at the p element</section>
+</div>
+
+
+<div>
+	<p class="box1 float-left"></p>
+	<p class="box2 float-left"></p>
+	<p class="box3 float-left"></p>
+	<p class="box4 float-left"></p>
+	<section class="clear-left">using clear property to fix the problem in 3rd example</section>	
+</div>
+
+<div>
+	<p class="box1 float-left"></p>
+	<p class="box2 float-left"></p>
+	<p class="box3 float-left clear-left"></p>
+	<p class="box4 float-left"></p>
+	<section class="clear-left">using clear property at 3rd box</section>	
+</div>
+
+</body>
+</html>

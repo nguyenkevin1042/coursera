@@ -1,0 +1,19 @@
+#box1 {
+	border: 3px solid red;
+	background: lightgray;
+}
+
+#box2 {
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	border: 2px solid green;
+	background: yellow;
+	margin-top: 50px;
+	margin-left: 200px;
+}
+#box2 #box2-1{
+	border: 2px solid black;
+	padding: 30px;
+	margin: 20px;
+}

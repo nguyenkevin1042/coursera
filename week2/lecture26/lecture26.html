@@ -5,14 +5,36 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Lecture 26</title>
 	<link rel="Stylesheet" href="style.css">
+	<link rel="Stylesheet" href="css/bootstrap.min.css">
+	
 </head>
 <body>
 <h1>Lecture 26: The Bootstrap Grid System</h1>
-
-<div class="container">
-	<div class="row">
-		<div class="col-md-4">Col 1</div>
+<section>
+	<p>This is the content before using bootstrap</p>
+	<div>
+		<div >
+			<div class="box">Col 1</div>
+			<div class="box">Col 2</div>
+			<div class="box">Col 3</div>
+		</div>
 	</div>
-</div>	
+</section>
+
+
+<section>
+	<p>This is the content after using bootstrap</p>
+	<div class="container">
+		<div class="row">
+			<div class="box col-md-4">Col 1</div>
+			<div class="box col-md-4">Col 2</div>
+			<div class="box col-md-4">Col 3</div>
+		</div>
+	</div>
+</section>
+
+
+<script src="js/jquery-3.6.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

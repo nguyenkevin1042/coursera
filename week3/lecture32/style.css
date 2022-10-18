@@ -1,0 +1,82 @@
+body {
+
+}
+
+/*HEADER*/
+#header-nav{
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img {
+	background: url('../resources/images/mcdonald_logo.jpg') no-repeat;
+	margin: 10px 15px 10px 0;
+}
+
+.navbar-brand{
+	padding-top: 35px;
+}
+
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+  	color: #ffb713;
+  	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-brand a{
+	text-decoration: none;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+
+.navbar-header button.navbar-toggler{
+	position: relative;
+	top: 40px;
+	border: none;
+	clear: both;
+}
+
+.navbar-header button.navbar-toggler:hover{
+	border: 1px solid lightgray;
+}
+
+
+
+#nav-list {
+
+}
+
+#nav-list a{
+	color: black;
+	text-align: center;
+}
+
+#nav-list a:hover{
+	background-color: lightgray;
+	text-align: center;
+}
+
+/**/
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+.navbar-right{
+	float: right;
+}
+
+
+/* Mobile */
+@media (max-width: 768px){
+	#logo-img{
+		background: none;
+	}
+}

@@ -34,8 +34,9 @@ body {
 
 
 .navbar-header button.navbar-toggler{
-	position: relative;
+	position: absolute;
 	top: 40px;
+	right: 60px;
 	border: none;
 	clear: both;
 }
@@ -52,7 +53,7 @@ body {
 
 #nav-list a{
 	color: black;
-	text-align: center;
+	text-align: right;
 }
 
 #nav-list a:hover{

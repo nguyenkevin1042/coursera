@@ -1,5 +1,9 @@
-body {
-
+* {
+box-sizing: border-box;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0;
 }
 
 /*HEADER*/
@@ -48,7 +52,7 @@ body {
 
 
 #nav-list {
-
+	
 }
 
 #nav-list a{

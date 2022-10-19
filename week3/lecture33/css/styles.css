@@ -11,6 +11,7 @@ body {
   background-color: #f6b319;
   border-radius: 0;
   border: 0;
+  flex-grow: 0;
 }
 
 #header-nav #logo-img {
@@ -22,7 +23,6 @@ body {
 
 #header-nav .navbar-brand {
   padding-top: 25px;
-  padding-left: 160px;
 }
 
 #header-nav .navbar-brand a{
@@ -59,6 +59,7 @@ body {
 /*NAV BAR ITEMS*/
 #nav-list {
   list-style: none;
+  padding-right: 50px;
 }
 
 #nav-list .nav-item{
@@ -94,9 +95,10 @@ body {
 
 
 #header-nav button#navbar-btn{
+  float: right;
   position: fixed;
-  right: 50px;
-  top: 70px;
+  top: 5%;
+  right: 5%;
 }
 
 .navbar-header button.navbar-toggler {
@@ -108,6 +110,81 @@ body {
 
 div.navbar-collapse{
   flex-grow: 0;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #header-nav #logo-img {
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Header */
+    #header-nav #logo-img {
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  #header-nav .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  #header-nav .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  #header-nav .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  #header-nav .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #nav-list a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #nav-list a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 10px;
+  }
+
+  /*#header-nav #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #header-nav #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }*/
+
 }
 
 /**/

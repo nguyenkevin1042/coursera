@@ -56,7 +56,8 @@ body {
 }
 
 #header-nav button#navbar-btn{
-  position: fixed;
+  clear: both;
+  position: absolute;
   right: 50px;
   top: 70px;
 }

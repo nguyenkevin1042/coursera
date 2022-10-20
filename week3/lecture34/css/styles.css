@@ -11,7 +11,6 @@ body {
   background-color: #f6b319;
   border-radius: 0;
   border: 0;
-  flex-grow: 0;
 }
 
 #header-nav #logo-img {
@@ -112,10 +111,20 @@ div.navbar-collapse{
   flex-grow: 0;
 }
 
+ .container .jumbotron {
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+  }
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-
+  /*Home Page*/
+  .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 675px;
+    margin-top: 10px;
+  }
+  /*End Home Page*/
 }
 
 /********** Medium devices only **********/
@@ -128,6 +137,14 @@ div.navbar-collapse{
     margin: 5px 5px 5px 0;
   }
   /* End Header */
+
+  /*Home Page*/
+  .container .jumbotron {
+    background: url('../images/jumbotron_992.jpg') no-repeat;
+    height: 558px;
+    margin-top: 10px;
+  }
+  /*End Home Page*/
 }
 
 /********** Small devices only **********/
@@ -140,6 +157,14 @@ div.navbar-collapse{
     margin: 5px 5px 5px 0;
   }
   /* End Header */
+
+  /*Home Page*/
+  .container .jumbotron {
+    background: url('../images/jumbotron_768.jpg') no-repeat;
+    height: 432px;
+    margin-top: 10px;
+  }
+  /*End Home Page*/
 }
 
 /********** Extra small devices only **********/
@@ -169,21 +194,28 @@ div.navbar-collapse{
     margin-right: 10px;
   }
 
-  /*#header-nav #call-btn > a {
+  #call-btn > a {
     font-size: 1.5em;
     display: block;
-    margin: 0 20px;
+    margin: 10px 30px;
     padding: 10px;
     border: 2px solid #fff;
     background-color: #f6b319;
     color: #951c49;
   }
-  #header-nav #xs-deliver {
+  #xs-deliver {
     margin-top: 5px;
     font-size: .7em;
     letter-spacing: .1em;
     text-transform: uppercase;
-  }*/
+  }
+  /*End Header*/
+
+  /*Home Page*/
+  .container .jumbotron {
+    margin-top: 10px;
+  }
+  /*End Home Page*/
 
 }
 

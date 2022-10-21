@@ -1,0 +1,60 @@
+body {
+  font-family: monospace;
+  font-size: 125%;
+  box-sizing: border-box;
+}
+
+
+#header-nav{
+	background-color: lightgrey;
+	border-radius: 0;
+  	border: 0;
+}
+#header-nav .container{
+	display: block;
+}
+#header-nav .navbar-header button.navbar-toggler{
+
+}
+#header-nav .navbar-header button.navbar-toggler:hover{
+	background-color: white;
+}
+.nav-item{
+	text-align: center;
+	border-bottom: 3px solid black;
+}
+.nav-item .nav-link{
+	font-weight: bold;
+}
+
+.navbar-brand a{
+	text-decoration: none;
+}
+
+
+#title-menu {
+  padding: 10px;
+}
+
+#main-content .row section{
+  background: lightgrey;
+ /* padding: 5px 20px;
+  margin-top: 20px;*/
+}
+#main-content .row section h3.section-title{
+  font-weight: bold;
+}
+#main-content .row section .section-para{
+	font-size: 15px;
+	padding: 10px;
+}
+#main-content .row section .end-section-text{
+	font-weight: bold;
+}
+
+/**/
+.text-center{
+	text-align: center;
+}
+/**/
+
